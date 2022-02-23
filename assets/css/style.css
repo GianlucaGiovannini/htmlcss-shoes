@@ -13,6 +13,10 @@ a {
     color: black;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* 
 Utility 
@@ -43,14 +47,7 @@ Utility
 }
 
 
-/* 
-Main
-*****************/
-
-.container {
-    height: 100vh;
-    position: relative;
-}
+/* nav */
 
 .btn-change {
     position: fixed;
@@ -67,6 +64,16 @@ Main
     border-radius: 50%;
     padding: 1.25rem 1.75rem;
     margin-right: 2.5rem;
+}
+
+
+/* 
+Main
+*****************/
+
+.container {
+    height: 100vh;
+    position: relative;
 }
 
 .content {
